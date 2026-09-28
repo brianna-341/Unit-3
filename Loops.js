@@ -40,8 +40,11 @@ console.log(sumRange(4, 4)); // 4
 function countdown(n) {
   // TODO: your code here
   let counter = [];
-  while (let i = 0; i < n; i++);{
-  } counter.push(n - 1)
+  while (n > 0) {
+    counter.push(n);
+    n--;
+  }
+  return counter;
 }
 
 console.log(countdown(5)); // [5, 4, 3, 2, 1]
@@ -55,7 +58,9 @@ console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
 // str[i] or str.charAt(i).
 function countVowels(str) {
   // TODO: your code here
-}
+const vowels = ["a", "e", "i", "o", "u"];
+
+  for (i = 0; i <= 5; i++) }
 
 console.log(countVowels("hello")); // 2
 console.log(countVowels("javascript")); // 3
