@@ -58,10 +58,13 @@ console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
 // str[i] or str.charAt(i).
 function countVowels(str) {
   // TODO: your code here
-const vowels = ["a", "e", "i", "o", "u"];
-
-  for (i = 0; i <= 5; i++) }
-
+  const vowels = ["a", "e", "i", "o", "u"];
+  for (i = 0; i <= str.lenght(); i++) {
+    if (str.charAt(i) === vowels);
+    char == "a" || char == "e" || char == "i" || char == "o" || char == "u";
+    return i;
+  }
+}
 console.log(countVowels("hello")); // 2
 console.log(countVowels("javascript")); // 3
 console.log(countVowels("xyz")); // 0
