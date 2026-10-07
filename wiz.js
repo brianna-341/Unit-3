@@ -11,4 +11,5 @@ function elder(n, start, duels) {
   console.log(owner, times);
 }
 //elder(3, "A", ["BA", "CB", "DA"]);
-elder(5, "N", ["DA"]);
+//elder(5, "N", ["DA", "NB", "BA", "CD", "FA"]);
+//elder(4, "X", ["AX", "BX", "XA", "DA"]);
